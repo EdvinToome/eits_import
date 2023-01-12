@@ -48,6 +48,8 @@ for x in range(0,len(main_object)):
 for article_title in articles_title:
     sep = ':'
     stripped = article_title.split(sep, 1)[0]
+    if(stripped == 'NET 1.2'):
+        stripped = 'NET.1.2'
     measure_short_id.append(stripped)
 
 # Add data to database

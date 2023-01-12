@@ -6240,6 +6240,486 @@
         "testable": 1
     },
     {
+        "group_id": "NET.1.2",
+        "id": "NET.1.2.M1.a",
+        "name": "Võrguhalduse kavandamine",
+        "description": " Võrguhalduse kavandamisel on lähtutud infoturvapoliitikast, nõuete spetsifikatsioonist (vt NET.1.2.M2 Võrguhalduse nõuete spetsifitseerimine), võrguhalduse tööülesannetest ja tööülesannete täitmiseks vajalikest pääsuõigustest.",
+        "in_scope": 1,
+        "testable": 0
+    },
+    {
+        "group_id": "NET.1.2",
+        "id": "NET.1.2.M1.b",
+        "name": "Võrguhalduse kavandamine",
+        "description": " Võrguhalduse kavandamisel on käsitletud vähemalt järgmist:",
+        "in_scope": 1,
+        "testable": 1
+    },
+    {
+        "group_id": "NET.1.2",
+        "id": "NET.1.2.M2.a",
+        "name": "Võrguhalduse nõuete spetsifitseerimine",
+        "description": " Võrguhalduse kavandamise käigus on dokumenteeritud võrguhalduse taristule ja protsessidele kehtestatud nõuded.",
+        "in_scope": 1,
+        "testable": 0
+    },
+    {
+        "group_id": "NET.1.2",
+        "id": "NET.1.2.M2.b",
+        "name": "Võrguhalduse nõuete spetsifitseerimine",
+        "description": " Võrguhalduse nõuded sisaldavad nõudeid haldusvahenditele, olulistele võrgukomponentidele ja võrguhalduse protsessi etappidele.",
+        "in_scope": 1,
+        "testable": 0
+    },
+    {
+        "group_id": "NET.1.2",
+        "id": "NET.1.2.M6.a",
+        "name": "Regulaarne andmevarundus",
+        "description": " Võrguhalduslahendustes varundatakse regulaarselt järgmised andmed:",
+        "in_scope": 1,
+        "testable": 0
+    },
+    {
+        "group_id": "NET.1.2",
+        "id": "NET.1.2.M7.a",
+        "name": "Sündmuste logimine",
+        "description": " Võrguhalduslahenduses logitakse vähemalt järgmisi sündmusi:",
+        "in_scope": 1,
+        "testable": 0
+    },
+    {
+        "group_id": "NET.1.2",
+        "id": "NET.1.2.M8.a",
+        "name": "Kellaaja sünkroniseerimine",
+        "description": " Kõigis võrguhalduse komponentides ja nendega seotud võrgukomponentides on kellaaeg sünkroniseeritud ning kasutatakse sama ajavööndit.",
+        "in_scope": 1,
+        "testable": 0
+    },
+    {
+        "group_id": "NET.1.2",
+        "id": "NET.1.2.M8.b",
+        "name": "Kellaaja sünkroniseerimine",
+        "description": " Kohtvõrgu kõigis kohtades sünkroniseeritakse kellaega NTP-teenusega.",
+        "in_scope": 1,
+        "testable": 1
+    },
+    {
+        "group_id": "NET.1.2",
+        "id": "NET.1.2.M8.c",
+        "name": "Kellaaja sünkroniseerimine",
+        "description": " Eraldi haldusvõrgu korral on soovitatav haldusvõrku paigutada eraldi NTP-server.",
+        "in_scope": 1,
+        "testable": 0
+    },
+    {
+        "group_id": "NET.1.2",
+        "id": "NET.1.2.M9.a",
+        "name": "Võrguhalduse side turve",
+        "description": " Kui võrguhalduse andmesideks kasutatakse põhivõrgu taristut, toimub andmevahetus ainult turvalisi protokolle kasutades.",
+        "in_scope": 1,
+        "testable": 0
+    },
+    {
+        "group_id": "NET.1.2",
+        "id": "NET.1.2.M9.b",
+        "name": "Võrguhalduse side turve",
+        "description": " Spetsiaalse haldusvõrguga lahendatud andmeside korral järgitakse meetmeid moodulist NET.1.1 Võrgu arhitektuur ja lahendus.",
+        "in_scope": 1,
+        "testable": 0
+    },
+    {
+        "group_id": "NET.1.2",
+        "id": "NET.1.2.M10.a",
+        "name": "SNMP-side piiramine",
+        "description": " Võrguhalduseks kasutatakse SNMP (Simple Network Management Protocol) turvalisi versioone (2020 a. SNMPv3).",
+        "in_scope": 1,
+        "testable": 0
+    },
+    {
+        "group_id": "NET.1.2",
+        "id": "NET.1.2.M10.b",
+        "name": "SNMP-side piiramine",
+        "description": " Ebaturvaliste, VPN-i või TLS-iga kaitsmata SNMP versioonide puhul kasutatakse eraldatud haldusvõrku.",
+        "in_scope": 1,
+        "testable": 0
+    },
+    {
+        "group_id": "NET.1.2",
+        "id": "NET.1.2.M10.c",
+        "name": "SNMP-side piiramine",
+        "description": " Juurdepääs SNMP protokolli andmestikule on lubatud ainult vajalikele haldusserveritele.",
+        "in_scope": 1,
+        "testable": 0
+    },
+    {
+        "group_id": "NET.1.2",
+        "id": "NET.1.2.M10.d",
+        "name": "SNMP-side piiramine",
+        "description": " Kui SNMP protokolli võrguhalduseks ei kasutata, on SNMP blokeeritud.",
+        "in_scope": 1,
+        "testable": 1
+    },
+    {
+        "group_id": "NET.1.2",
+        "id": "NET.1.2.M11.a",
+        "name": "Võrguhalduse juhend",
+        "description": " Võrguhalduseks on koostatud kirjalik juhend, vajadusel juhendit ajakohastatakse.",
+        "in_scope": 1,
+        "testable": 1
+    },
+    {
+        "group_id": "NET.1.2",
+        "id": "NET.1.2.M11.b",
+        "name": "Võrguhalduse juhend",
+        "description": " Võrguhalduse juhendis on määratud:",
+        "in_scope": 1,
+        "testable": 1
+    },
+    {
+        "group_id": "NET.1.2",
+        "id": "NET.1.2.M12.a",
+        "name": "Võrguhalduse dokumenteerimine",
+        "description": " Võrguhalduse dokumentatsioonis on kirjeldatud:",
+        "in_scope": 1,
+        "testable": 1
+    },
+    {
+        "group_id": "NET.1.2",
+        "id": "NET.1.2.M13.a",
+        "name": "Võrguhalduse kontseptsioon",
+        "description": " On välja töötatud võrguhalduse kontseptsioon, mis lisaks võrguhalduse juhendis kirjeldatule (vt NET.1.2.M11 Võrguhalduse juhend) määrab:",
+        "in_scope": 1,
+        "testable": 0
+    },
+    {
+        "group_id": "NET.1.2",
+        "id": "NET.1.2.M14.a",
+        "name": "Võrguhalduse rakendusplaan",
+        "description": " Võrguhalduse kontseptsiooni ja võrguhalduse juhendi alusel on koostatud üksikasjalik võrguhalduse rakendusplaan.",
+        "in_scope": 1,
+        "testable": 1
+    },
+    {
+        "group_id": "NET.1.2",
+        "id": "NET.1.2.M15.a",
+        "name": "Võrguhalduse taristu turvalise kasutamise kord",
+        "description": " Võrguhalduse taristu turvalise kasutamise kord on välja töötatud lähtuvalt võrgu turvapoliitikast, võrguhalduse juhendist ja võrguhalduse kontseptsioonist.",
+        "in_scope": 1,
+        "testable": 0
+    },
+    {
+        "group_id": "NET.1.2",
+        "id": "NET.1.2.M16.a",
+        "name": "Võrguhalduslahenduste turvaline konfigureerimine",
+        "description": " Võrguhalduslahenduste seadistamisel lähtutakse kehtestatud nõuetest (vt NET.1.2.M2 Võrguhalduse nõuete spetsifitseerimine) ning võrguhalduse kontseptsioonist (vt NET.1.2.M13 Võrguhalduse kontseptsioon).",
+        "in_scope": 1,
+        "testable": 0
+    },
+    {
+        "group_id": "NET.1.2",
+        "id": "NET.1.2.M16.b",
+        "name": "Võrguhalduslahenduste turvaline konfigureerimine",
+        "description": " Võrguhalduslahenduse konfiguratsioon ja kasutuselevõtt on turvalised.",
+        "in_scope": 1,
+        "testable": 0
+    },
+    {
+        "group_id": "NET.1.2",
+        "id": "NET.1.2.M17.a",
+        "name": "Regulaarne võrguhalduse ülevaatus",
+        "description": " Võrguhaldusele esitatud nõuetele vastavust kontrollitakse regulaarselt.",
+        "in_scope": 1,
+        "testable": 1
+    },
+    {
+        "group_id": "NET.1.2",
+        "id": "NET.1.2.M17.b",
+        "name": "Regulaarne võrguhalduse ülevaatus",
+        "description": " Ülevaatuse käigus kontrollitakse võrguhalduse dokumentatsiooni ajakohasust, vastavust hetkeseisule ning tegelikele protseduuridele.",
+        "in_scope": 1,
+        "testable": 0
+    },
+    {
+        "group_id": "NET.1.2",
+        "id": "NET.1.2.M17.c",
+        "name": "Regulaarne võrguhalduse ülevaatus",
+        "description": " Ülevaatuse käigus hinnatakse, kas olemasolev võrguhalduse taristu on turvaline ja jätkusuutlik.",
+        "in_scope": 1,
+        "testable": 0
+    },
+    {
+        "group_id": "NET.1.2",
+        "id": "NET.1.2.M18.a",
+        "name": "Võrguhalduse koolitus [ülemus]",
+        "description": " Võrguhalduse koolitusprogramm sisaldab konfiguratsiooni haldust (ingl configuration management) ja suutvuse haldust (ingl capacity management) ning arvestab konkreetse võrguhalduslahenduse iseärasusi.",
+        "in_scope": 1,
+        "testable": 0
+    },
+    {
+        "group_id": "NET.1.2",
+        "id": "NET.1.2.M18.b",
+        "name": "Võrguhalduse koolitus [ülemus]",
+        "description": " Võrguhalduse koolitusprogramm sisaldab käitumisjuhiseid tüüpiliste tõrgete ning turvaintsidentidega toimetulekuks.",
+        "in_scope": 1,
+        "testable": 0
+    },
+    {
+        "group_id": "NET.1.2",
+        "id": "NET.1.2.M18.c",
+        "name": "Võrguhalduse koolitus [ülemus]",
+        "description": " Koolitusi ja väljaõpet tehakse regulaarselt. Koolitust korratakse pärast võrguhalduslahendustes oluliste tehniliste või korralduslike muudatuste tegemist.",
+        "in_scope": 1,
+        "testable": 0
+    },
+    {
+        "group_id": "NET.1.2",
+        "id": "NET.1.2.M21.a",
+        "name": "Võrguhalduse side lahusus",
+        "description": " Võimalusel välditakse halduspääsu andmist võrgukomponentidele välisest võrgust.",
+        "in_scope": 1,
+        "testable": 1
+    },
+    {
+        "group_id": "NET.1.2",
+        "id": "NET.1.2.M21.b",
+        "name": "Võrguhalduse side lahusus",
+        "description": " Kui juurdepääs võrgukomponentidele välisest võrgust ning ilma keskse haldusvahendita on vajalik, kasutatakse selleks eraldi andmesidekanalit.",
+        "in_scope": 1,
+        "testable": 0
+    },
+    {
+        "group_id": "NET.1.2",
+        "id": "NET.1.2.M21.c",
+        "name": "Võrguhalduse side lahusus",
+        "description": " Vastavad hüppeserverid (ingl jump server) on osa haldusvõrgust ning need on paigutatud eraldi pääsusegmenti.",
+        "in_scope": 1,
+        "testable": 0
+    },
+    {
+        "group_id": "NET.1.2",
+        "id": "NET.1.2.M22.a",
+        "name": "Haldusfunktsioonide piiramine",
+        "description": " Aktiveeritud on üksnes vajalikud haldusfunktsioonid, muud funktsioonid on blokeeritud.",
+        "in_scope": 1,
+        "testable": 0
+    },
+    {
+        "group_id": "NET.1.2",
+        "id": "NET.1.2.M24.a",
+        "name": "Võrgukomponentide keskne konfiguratsioonihaldus",
+        "description": " Haldusvõrgu võrgukomponentide tarkvara, püsivara (ingl firmware) ning konfiguratsiooniandmeid jagatakse ja paigaldatakse keskselt, automatiseeritult ning ilma märgatavat katkestust tekitamata.",
+        "in_scope": 1,
+        "testable": 1
+    },
+    {
+        "group_id": "NET.1.2",
+        "id": "NET.1.2.M24.b",
+        "name": "Võrgukomponentide keskne konfiguratsioonihaldus",
+        "description": " Konfiguratsioonid on turvaliselt hoitud ning volitatud töötajatele vajadusel kättesaadavad.",
+        "in_scope": 1,
+        "testable": 1
+    },
+    {
+        "group_id": "NET.1.2",
+        "id": "NET.1.2.M24.c",
+        "name": "Võrgukomponentide keskne konfiguratsioonihaldus",
+        "description": " Konfiguratsioonihaldus on kooskõlas versioonihalduse ja varunduse protsessidega.",
+        "in_scope": 1,
+        "testable": 0
+    },
+    {
+        "group_id": "NET.1.2",
+        "id": "NET.1.2.M24.d",
+        "name": "Võrgukomponentide keskne konfiguratsioonihaldus",
+        "description": " Keskse konfiguratsioonihalduse toimimist kontrollitakse regulaarselt.",
+        "in_scope": 1,
+        "testable": 0
+    },
+    {
+        "group_id": "NET.1.2",
+        "id": "NET.1.2.M25.a",
+        "name": "Võrgukomponentide seire",
+        "description": " Oluliste võrgukomponentide käideldavus- ja sooritusparameetreid seiratakse regulaarselt.",
+        "in_scope": 1,
+        "testable": 1
+    },
+    {
+        "group_id": "NET.1.2",
+        "id": "NET.1.2.M25.b",
+        "name": "Võrgukomponentide seire",
+        "description": " Seire tulemuste hindamiseks on eelnevalt määratletud käideldavus- ja sooritusparameetrite läviväärtused (ingl network baselining).",
+        "in_scope": 1,
+        "testable": 0
+    },
+    {
+        "group_id": "NET.1.2",
+        "id": "NET.1.2.M26.a",
+        "name": "Sündmuste teavitus, alarmeerimine ja logimine",
+        "description": " Võrgukomponentide ja võrguhaldusvahenditega seotud olulised sündmused logitakse kesksesse haldussüsteemi.",
+        "in_scope": 1,
+        "testable": 1
+    },
+    {
+        "group_id": "NET.1.2",
+        "id": "NET.1.2.M26.b",
+        "name": "Sündmuste teavitus, alarmeerimine ja logimine",
+        "description": " Võrgukomponentide ja võrguhaldusvahenditega seotud olulistest sündmustest teavitatakse automaatselt kohe pärast sündmuse toimumist vastutavat IT-personali.",
+        "in_scope": 1,
+        "testable": 0
+    },
+    {
+        "group_id": "NET.1.2",
+        "id": "NET.1.2.M26.c",
+        "name": "Sündmuste teavitus, alarmeerimine ja logimine",
+        "description": " Logitakse vähemalt järgmist:",
+        "in_scope": 1,
+        "testable": 1
+    },
+    {
+        "group_id": "NET.1.2",
+        "id": "NET.1.2.M27.a",
+        "name": "Võrguhalduse avariivalmendus",
+        "description": " Võrguhalduse avariivalmendus on osa organisatsiooni üldisest avariivalmenduse kontseptsioonist.",
+        "in_scope": 1,
+        "testable": 0
+    },
+    {
+        "group_id": "NET.1.2",
+        "id": "NET.1.2.M27.b",
+        "name": "Võrguhalduse avariivalmendus",
+        "description": " Võrguhaldusvahendite ja võrgukomponentide konfiguratsioonid on varundatud ja nende taaste on lisatud taasteplaanidesse.",
+        "in_scope": 1,
+        "testable": 0
+    },
+    {
+        "group_id": "NET.1.2",
+        "id": "NET.1.2.M28.a",
+        "name": "Haldustööjaamade turvaline paigutus ainukanaliga halduse puhul",
+        "description": " IT-süsteemide haldamiseks ainukanaliga (ingl in-band) haldusvõrgus on kasutusel spetsialiseeritud haldustööjaamad.",
+        "in_scope": 1,
+        "testable": 1
+    },
+    {
+        "group_id": "NET.1.2",
+        "id": "NET.1.2.M28.b",
+        "name": "Haldustööjaamade turvaline paigutus ainukanaliga halduse puhul",
+        "description": " Kui organisatsioon kasutab nii Internetist juurdepääsetavaid kui sisevõrgu IT-süsteeme, on nende halduseks kohandatud eraldi haldustööjaamad.",
+        "in_scope": 1,
+        "testable": 1
+    },
+    {
+        "group_id": "NET.1.2",
+        "id": "NET.1.2.M29.a",
+        "name": "Virtuaalsed kohtvõrgud (VLAN) haldustsoonis",
+        "description": " Kui kasutatakse virtuaalseid haldusvõrke, asuvad väline paketifilter ja sellega ühendatud seadmed eraldiseisvas võrgusegmendis.",
+        "in_scope": 1,
+        "testable": 1
+    },
+    {
+        "group_id": "NET.1.2",
+        "id": "NET.1.2.M29.b",
+        "name": "Virtuaalsed kohtvõrgud (VLAN) haldustsoonis",
+        "description": " Kogu liiklus läbib rakenduslüüsi (ingl application level gateway).",
+        "in_scope": 1,
+        "testable": 0
+    },
+    {
+        "group_id": "NET.1.2",
+        "id": "NET.1.2.M30.a",
+        "name": "Halduslahenduse kõrgkäideldavus (A)",
+        "description": " Kesksed halduslahendused ja neid toetavad võrgukomponendid on teostatud kõrgkäideldavalt.",
+        "in_scope": 1,
+        "testable": 1
+    },
+    {
+        "group_id": "NET.1.2",
+        "id": "NET.1.2.M30.b",
+        "name": "Halduslahenduse kõrgkäideldavus (A)",
+        "description": " On tagatud oluliste halduslahenduse komponentide liiasus (ingl redundancy), näiteks komponentide dubleerimise kaudu.",
+        "in_scope": 1,
+        "testable": 1
+    },
+    {
+        "group_id": "NET.1.2",
+        "id": "NET.1.2.M31.a",
+        "name": "Turvalised protokollid (C-I-A)",
+        "description": " Kasutatakse üksnes turvalisi võrguhaldusprotokolle.",
+        "in_scope": 1,
+        "testable": 1
+    },
+    {
+        "group_id": "NET.1.2",
+        "id": "NET.1.2.M31.b",
+        "name": "Turvalised protokollid (C-I-A)",
+        "description": " Võrguhaldusprotokollide kõik turvafunktsioonid on kasutusel.",
+        "in_scope": 1,
+        "testable": 1
+    },
+    {
+        "group_id": "NET.1.2",
+        "id": "NET.1.2.M32.a",
+        "name": "Haldusvõrgu füüsiline eraldamine [arhitekt] (C-I-A)",
+        "description": " Haldusvõrk on muust sisevõrgust võrguseadmetega füüsiliselt eraldatud.",
+        "in_scope": 1,
+        "testable": 1
+    },
+    {
+        "group_id": "NET.1.2",
+        "id": "NET.1.2.M33.a",
+        "name": "Haldussegmendi füüsiline eraldamine [arhitekt] (C-I-A)",
+        "description": " Haldusvõrk on jaotatud eraldi võrguseadmetega haldussegmentideks.",
+        "in_scope": 1,
+        "testable": 1
+    },
+    {
+        "group_id": "NET.1.2",
+        "id": "NET.1.2.M33.b",
+        "name": "Haldussegmendi füüsiline eraldamine [arhitekt] (C-I-A)",
+        "description": " Kohtvõrgu komponente, turvakomponente ja välisühenduste komponente hallatakse erinevatest, võrguseadmetega füüsiliselt eraldatud haldussegmentidest.",
+        "in_scope": 1,
+        "testable": 0
+    },
+    {
+        "group_id": "NET.1.2",
+        "id": "NET.1.2.M35.a",
+        "name": "Asitõendite turve (C-I-A)",
+        "description": " IT-kriminalistika (ingl computer forensics) vajadustest lähtuvalt on kehtestatud kord võrguhaldust käsitlevate asitõendite õigusnormi kohaseks ning muutmiskindlaks arhiveerimiseks (vt DER.2.2 IT-kriminalistika võimaldamine).",
+        "in_scope": 1,
+        "testable": 0
+    },
+    {
+        "group_id": "NET.1.2",
+        "id": "NET.1.2.M36.a",
+        "name": "Võrguhalduse logimise liidestamine turvateabe ja -sündmuste halduse (SIEM) lahendusega (C-I-A)",
+        "description": " Võrguhalduse logimine on ühendatud turvateabe ja -sündmuste halduse (ingl security information and event management, SIEM) lahendusega.",
+        "in_scope": 1,
+        "testable": 1
+    },
+    {
+        "group_id": "NET.1.2",
+        "id": "NET.1.2.M36.b",
+        "name": "Võrguhalduse logimise liidestamine turvateabe ja -sündmuste halduse (SIEM) lahendusega (C-I-A)",
+        "description": " Nõudeid võrguhalduslahendusele (vt NET1.2.M2 Võrguhalduse nõuete spetsifitseerimine) on täiendatud SIEM lahenduste liideste ja edastusviisidega.",
+        "in_scope": 1,
+        "testable": 0
+    },
+    {
+        "group_id": "NET.1.2",
+        "id": "NET.1.2.M37.a",
+        "name": "Kõiki asukohti hõlmav aja sünkroniseerimine (C-I)",
+        "description": " Organisatsiooni kõigis asukohtades on seadme aja sünkroonsus tagatud ühise alusaja (nt kõrgema taseme NTP-serveri) järgi.",
+        "in_scope": 1,
+        "testable": 1
+    },
+    {
+        "group_id": "NET.1.2",
+        "id": "NET.1.2.M38.a",
+        "name": "Võrguhalduse taristu asenduslahendused (A)",
+        "description": " Võrgukomponentide tarkvara ja püsivara (ingl firmware) paigaldamiseks ja konfiguratsiooni taastamiseks on olemas tõhusad alternatiivlahendused.",
+        "in_scope": 1,
+        "testable": 0
+    },
+    {
         "group_id": "NET.2.1",
         "id": "NET.2.1.M1.a",
         "name": "Raadiokohtvõrkude kavandamine",
